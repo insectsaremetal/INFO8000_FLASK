@@ -1,8 +1,3 @@
-# Install Flask
-conda install -c anaconda flask
-# Update Flask
-conda update -n base -c defaults conda
-
 # Code for web app
 from flask import Flask, escape, request, jsonify
 
